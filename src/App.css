@@ -13,6 +13,12 @@
   }
 }
 
+.about{
+  /* margin: 3rem 8rem 3rem 8rem; */
+  margin-inline: 8rem;
+  font-size: 22px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +32,127 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.bg-brown{
+  background-color: #C3B59C;
+  display: flex;
+  /* width: 100%; */
+}
+
+.descBox{
+   width: 45%;
+   text-align: center;
+   margin-inline: 1rem;
+}
+#body{
+  margin-left: 30%;
+}
+
+
+
+.head{
+  /* display: flex; */
+  text-align: center;
+  background-color: #545A4D;
+  width: 28%;
+  height: 100%;
+  position: fixed;
+}
+
+#headName{
+  color: #c3b59c;
+  margin-bottom: 0;
+}
+
+.headList{
+  padding: 24px;
+  margin: 0;
+  color: #c3b59c;
+}
+.headListOpt{
+  list-style-type: none;
+  text-align: left;
+}
+.headListAns{
+  list-style-type: none;
+  text-align: right;
+}
+.headLink{
+  /* text-decoration: ; */
+  color: #c3b59c;
+}
+.headLink:hover{
+  color: #2c2c32;
+  transition: color 0.2s ease-in;
+}
+
+.tempProPic{
+  background-color: gray;
+  /* width: 40%;
+  height: 60%; */
+  width: 20%;
+  padding: 5% 2% 5% 2%;
+  border-radius: 40px;
+  margin: 5% 5% 5% 5%;
+  /* margin: 0 auto 15px auto; */
+
+}
+
+.proPic{
+  width: 60%;
+  border-radius: 70px;
+  /* width: 6em; */
+}
+
+.proPicDiv{
+  width: 100%;
+  background: inherit;
+  padding-top: 5%;
+}
+
+.projDesc{
+  text-align: justify;
+}
+
+.projSec{
+  display: flex;
+  flex-direction: row;
+  padding-block: 2rem;
+}
+
+.expDiv{
+  width: 50%;
+  text-align: center;
+  margin-inline: 1rem;
+}
+.expSec{
+  /* padding-inline: 2rem; */
+  display: flex;
+  flex-direction: row;
+  /* padding-block: 2rem; */
+  padding: 2rem;
+}
+.expSS{
+  width: 24em;
+  margin-inline: auto;
+}
+
+.projSS{
+  width: 30em;
+  /* height: 17em; */
+  /* padding-right: 1em; */
+  margin-inline: auto;
+}
+.projSSDiv{
+  /* width: 100%; */
+}
+.resume{
+  width: 30em;
+}
+
+.secTitle{
+  text-align: center;
 }
 
 @keyframes App-logo-spin {
