@@ -14,6 +14,7 @@
 }
 
 .about{
+  text-align: justify;
   /* margin: 3rem 8rem 3rem 8rem; */
   margin-inline: 8rem;
   font-size: 22px;
@@ -39,14 +40,44 @@
   display: flex;
   /* width: 100%; */
 }
+.btn{
+  color: #c3b59c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  
+  text-decoration: none;
+  text-transform: uppercase;
+  
+  border: solid 1px;
+  border-radius: 3rem;
+  padding: 0.5em 1.5em;
+  
+}
+
+.btn:hover{
+  color: #545A4D;
+  background-color: #C3B59C;
+}
+
+.conLine{
+  border-top: solid 2px black;
+  margin-inline: 10em;
+}
 
 .descBox{
-   width: 45%;
+   width: 40%;
    text-align: center;
-   margin-inline: 1rem;
+   margin-inline: auto;
 }
+
 #body{
-  margin-left: 30%;
+  margin-left: 28%;
+  padding-block-end: 5em;
 }
 
 
@@ -63,6 +94,7 @@
 #headName{
   color: #c3b59c;
   margin-bottom: 0;
+  font-size:xxx-large;
 }
 
 .headList{
@@ -77,14 +109,36 @@
 .headListAns{
   list-style-type: none;
   text-align: right;
+  margin-block: 1em;
+}
+.headListLoc{
+  display: flex;
 }
 .headLink{
   /* text-decoration: ; */
   color: #c3b59c;
+  display: inline-flex;
 }
 .headLink:hover{
   color: #2c2c32;
   transition: color 0.2s ease-in;
+}
+.headLinkIcon{
+  width: 2em;
+  color: #c3b59c;
+  background-color: blacks;
+}
+.headLinkIcon:hover{
+  color: #2c2c32;
+  transition: color 0.2s ease-in;
+}
+.headLinkText{
+  font-size: 1.25em;
+  margin-inline-end: 10px;
+}
+
+.noHover{
+  pointer-events: none;
 }
 
 .tempProPic{
@@ -101,7 +155,7 @@
 
 .proPic{
   width: 60%;
-  border-radius: 70px;
+  border-radius: 50%;
   /* width: 6em; */
 }
 
@@ -113,6 +167,9 @@
 
 .projDesc{
   text-align: justify;
+}
+.projName{
+  margin-top: auto;
 }
 
 .projSec{
@@ -138,17 +195,53 @@
   margin-inline: auto;
 }
 
-.projSS{
-  width: 30em;
-  /* height: 17em; */
-  /* padding-right: 1em; */
-  margin-inline: auto;
+.projSSL{
+  height: 17em;
+  margin-inline-start: auto;
+}
+
+.projSSR{
+  /* width: 30em; */
+  height: 17em;
+  margin-inline-end: auto;
 }
 .projSSDiv{
   /* width: 100%; */
 }
 .resume{
   width: 30em;
+  margin-inline-end: auto;
+}
+
+.resContainer{
+  position: relative;
+  /* width: 60%; */
+  margin: auto;
+
+}
+.overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 98.5%;
+  width: 100%;
+  opacity: 0;
+  transition: 1s ease;
+  background-color: #545A4D;
+}
+.resContainer:hover .overlay{
+  opacity: 1;
+}
+
+
+
+.resQues{
+  margin: auto;
+}
+.resumeSec{
+  display: flex;
 }
 
 .secTitle{

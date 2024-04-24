@@ -1,46 +1,65 @@
-import logo from './logo.svg';
 import './App.css';
-import proPic from './media/profilePic.png';
 import fence from './media/fencing.jpg';
 import wine from './media/winery.jpg';
 import DBPic from './media/VGDB.png';
 import prevPor from './media/webPor.png';
-import resume from './media/JonA.png';
-import resume2 from './media/JonAlfaro.pdf';
+import resumePic from './media/JonA.png';
+import resume from './media/JonAlfaro.pdf';
+import spotifyUI from './media/spotify.png';
+// import proPic from './media/profilePic.png';   //HEADER
+// import mapIcon from './media/maps-and-flags.png'
+// import mailIcon from './media/email.png';
+// import linkedIcon from './media/linkedin.png';
+// import gitIcon from './media/github-sign.png';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import Header from './Header.js';
+
 
 function App() {
   return (
     <div className='bg-brown'>
-      <header className='head'>
+      {/* <header className='head'>
         <div className='proPicDiv'>
           <img src={proPic} alt='profile picture' className='proPic'/>
         </div>
         <h1 id='headName'>Jonathan Alfaro</h1>
         
+
         <ul className='headList'>
-          <li className='headListOpt'>Location:</li>
-          <li className='headListAns'>Fresno, CA</li>  
-          <li className='headListOpt'>Email:</li>
+          <li className='headListAns'>
+            <a className='headLink noHover'>
+              <span className='headLinkText'>Fresno, CA</span>
+              <img src={mapIcon} className='headLinkIcon'/>
+            </a>
+          </li>
+          <li className='headListAns'>
+            <a href='mailto:JonathanAlfaro51@gmail.com' className='headLink fa fa-envelope'>
+              <span className='headLinkText'>JonathanAlfaro51@gmail.com</span>
+            </a>
+          </li>
           <li className='headListAns'>
             <a href='mailto:JonathanAlfaro51@gmail.com' className='headLink'>
-              <span>JonathanAlfaro51@gmail.com</span>
+              <span className='headLinkText'>JonathanAlfaro51@gmail.com</span>
+              <img src={mailIcon} alt='email icon' className='headLinkIcon'/>
             </a>
           </li>
-          <li className='headListOpt'>Linkedin:</li>
           <li className='headListAns'>
             <a href='https://linkedin.com/in/gameonjon' target='_blank' className='headLink'>
-              <span>linkedin.com/in/gameonjon</span>
+              <span className='headLinkText'>linkedin.com/in/gameonjon</span>
+              <img src={linkedIcon} alt='linkedin' className='headLinkIcon'/>
             </a>
           </li>
-          <li className='headListOpt'>Github:</li>
           <li className='headListAns'>
             <a href='https://github.com/gameonjon' target='_blank' className='headLink'>
-              <span>Github.com/gameonjon</span>
+              <span className='headLinkText'>Github.com/gameonjon</span>
+              <img src={gitIcon} alt='github' className='headLinkIcon'/>
             </a>
           </li>
         </ul>
 
-      </header>
+      </header> */}
+
+      <Header/>
 
       <body id='body'>
         {/* ABOUT SECTION */}
@@ -99,37 +118,58 @@ function App() {
             {/* <div className='projSSDiv'> */}
             {/* </div> */}
           </div>
-          <img src={DBPic} alt='DB screen shot' className='projSS'/>
+          <img src={DBPic} alt='DB screen shot' className='projSSR'/>
         </section>
 
-        {/* previous web portfolio */}
+        {/* Spotify user profile  */}
         <section className='projSec'>
-          <img src={prevPor} alt='old web portfolio' className='projSS'/>
+          <img src={spotifyUI} alt='spotify rework' className='projSSL'/>
           <div className='descBox'>
-            <h2 className='projName'>Web Portfolio</h2>
-            <p className='projDesc'>Lorem ipsum dolor sit amet, consectetur
-              adipiscing elit. Curabitur et ipsum a eros placerat pharetra.
-              Fusce egestas, dolor nec mattis condimentum, libero dolor 
-              ultrices enim, vitae euismod lacus purus in quam. Mauris 
-              quis bibendum velit. Integer venenatis rutrum sapien sit 
-              amet gravida. Aenean commodo metus ut lectus efficitur 
-              fringilla. Quisque ipsum nulla, tincidunt ac libero ut, 
-              rutrum eleifend lorem. Fusce tempor eros non ex eleifend 
-              auctor. Curabitur tincidunt quis neque eget consequat. 
-              Sed eget purus vitae arcu eleifend volutpat. Nam ut urna 
-              diam.
+            <h2 className='projName'>UX/UI Redesign of Music App</h2>
+            <p className='projDesc'>Addressing user pain points when sharing profiles. 
+            From my perspective sharing with friends doesn't showcase an accurate 
+            representation of the current listening behavior. Main purpose was to 
+            better understand the UX process and accurately communicate between
+            cross-functional departments. Utilizing Figma for lo-fi and hi-fi UX development,
+            and receiving mentorship from UX Designer. 
             </p>
           </div>
         </section>
 
+        <div className='descBox'>
+          <h2 className='projName'>I HAVE ALSO...</h2>
+          <p className='projDesc'>dabbled in game development (using Unity and Gimp) 
+          and basics to making music(using Ableton)  </p>
+        </div>
+
+
+        <br/>
+        <div className='conLine'></div>
+        <br/>
+
         {/* Resume SECTION */}
         {/* ------------- */}
         <br id='Resume'/>
-        <h1 className='secTitle'>Looking to hire?</h1>
-        <object data={resume2} className='resume'/>
-        <img src={resume} alt='Resume' className='resume'/>
+        <section className='resumeSec'>
+          <div className='resQues'>
+            <h1 className='secTitle'>Looking to hire?</h1>
+
+          </div>
+          <div className='resContainer'>
+            <img src={resumePic} alt='Resume' className='resume'/>
+            <div className='overlay'>
+              <a href={resume} className='btn' target='blank'>Jon's Resume</a>
+            </div>
+            
+            {/* <a href={resume} className='btn' target='blank'>Jon's Resume</a> */}
+          </div>
+          
+
+        </section>
       </body>
     </div>
+
+
     
   );
 }
