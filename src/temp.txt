@@ -1,0 +1,47 @@
+
+===============VGDB===============
+VGDB was made using web development and 
+Relational Database Management System with HTML/CSS and python, respectively.
+These two resources were connected using Node.js as the REST API. The
+purpose of this project was to create an interface and storage
+management system to hold various videogames and their info of
+publishers, designers, etc.
+
+VGDB was made to display a number of available videogames, their 
+designers and publishers, as well as reviews and videos from other 
+users. This project was created using HTML/CSS for the UI, Python for 
+the schema, MySQL for the RDBMS, and Node.js/Express.js for the RESTful
+API. 
+
+
+
+=============== spotify 
+Addressing user pain points when sharing profiles. 
+From my perspective sharing with friends doesn't showcase an accurate 
+representation of the current listening behavior. Main purpose was to 
+better understand the UX process and accurately communicate between
+cross-functional departments. Utilizing Figma for lo-fi and hi-fi UX
+development, and receiving mentorship from UX Designer. 
+
+Main purpose of this project was to better understand the UX
+process and accurately communicate between different departments
+within a company. From my perspective, sharing spotify profiles
+does not accurately represent the current listening behavior a 
+user has. It mainly shows outdated playlists and no options to
+reorganize. I utilized Figma for lo-fi and hi-fi UX development,
+and recieve mentorship from and UX designer.
+
+
+=====gami bird============
+Here I created a simple execution of the famous mobile game of 2013, 
+Flappy Bird. Using Unity and C#, I was able to develop a 2D mobile game.
+I also used Gimp and <a href="https://www.flaticon.com/" class="link">
+FlatIcon.com</a> to create my scenery and sprites. The main purpose 
+of this project was to practice publishing/shipping of mobile games. 
+Previously available on Google Play.
+
+Using Unity and C#, I was able to develop a 2D mobile 
+game, a simple execution of the famous mobile game of 2013, Flappy Bird.
+I also used Gimp and FlatIcon to create my scenery and sprites. The main purpose 
+of this project was to practice publishing/shipping of mobile games. 
+Previously available on Google Play.
