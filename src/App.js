@@ -2,62 +2,17 @@ import './App.css';
 import fence from './media/fencing.jpg';
 import wine from './media/winery.jpg';
 import DBPic from './media/VGDB.png';
+import GamiBird from './media/Feature1.png';
 import prevPor from './media/webPor.png';
-import resumePic from './media/JonA.png';
+import resumePic from './media/JonA.PNG';
 import resume from './media/JonAlfaro.pdf';
 import spotifyUI from './media/spotify.png';
-// import proPic from './media/profilePic.png';   //HEADER
-// import mapIcon from './media/maps-and-flags.png'
-// import mailIcon from './media/email.png';
-// import linkedIcon from './media/linkedin.png';
-// import gitIcon from './media/github-sign.png';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import Header from './Header.js';
 
 
 function App() {
   return (
     <div className='bg-brown'>
-      {/* <header className='head'>
-        <div className='proPicDiv'>
-          <img src={proPic} alt='profile picture' className='proPic'/>
-        </div>
-        <h1 id='headName'>Jonathan Alfaro</h1>
-        
-
-        <ul className='headList'>
-          <li className='headListAns'>
-            <a className='headLink noHover'>
-              <span className='headLinkText'>Fresno, CA</span>
-              <img src={mapIcon} className='headLinkIcon'/>
-            </a>
-          </li>
-          <li className='headListAns'>
-            <a href='mailto:JonathanAlfaro51@gmail.com' className='headLink fa fa-envelope'>
-              <span className='headLinkText'>JonathanAlfaro51@gmail.com</span>
-            </a>
-          </li>
-          <li className='headListAns'>
-            <a href='mailto:JonathanAlfaro51@gmail.com' className='headLink'>
-              <span className='headLinkText'>JonathanAlfaro51@gmail.com</span>
-              <img src={mailIcon} alt='email icon' className='headLinkIcon'/>
-            </a>
-          </li>
-          <li className='headListAns'>
-            <a href='https://linkedin.com/in/gameonjon' target='_blank' className='headLink'>
-              <span className='headLinkText'>linkedin.com/in/gameonjon</span>
-              <img src={linkedIcon} alt='linkedin' className='headLinkIcon'/>
-            </a>
-          </li>
-          <li className='headListAns'>
-            <a href='https://github.com/gameonjon' target='_blank' className='headLink'>
-              <span className='headLinkText'>Github.com/gameonjon</span>
-              <img src={gitIcon} alt='github' className='headLinkIcon'/>
-            </a>
-          </li>
-        </ul>
-
-      </header> */}
 
       <Header/>
 
@@ -107,12 +62,13 @@ function App() {
         <section className='projSec'>
           <div className='descBox'>
             <h2 className='projName'>VideoGame Database</h2>
-            <p className='projDesc'>VGDB was made using web development and 
-              Relational Database Management System with HTML/CSS and python, respectively.
-              These two resources were connected using Node.js as the REST API. The
-              purpose of this project was to create an interface and storage
-              management system to hold various videogames and their info of
-              publishers, designers, etc.
+            <p className='projDesc'>
+              VGDB was made to display a number of available videogames, 
+              their designers and publishers, as well as reviews and videos 
+              from other users. This project was created using HTML/CSS 
+              for the UI, Python for the schema, MySQL for the RDBMS, 
+              and Node.js/Express.js for the RESTful API. This project can
+              be found in my Github repos.
             </p>
 
             {/* <div className='projSSDiv'> */}
@@ -126,22 +82,32 @@ function App() {
           <img src={spotifyUI} alt='spotify rework' className='projSSL'/>
           <div className='descBox'>
             <h2 className='projName'>UX/UI Redesign of Music App</h2>
-            <p className='projDesc'>Addressing user pain points when sharing profiles. 
-            From my perspective sharing with friends doesn't showcase an accurate 
-            representation of the current listening behavior. Main purpose was to 
-            better understand the UX process and accurately communicate between
-            cross-functional departments. Utilizing Figma for lo-fi and hi-fi UX development,
-            and receiving mentorship from UX Designer. 
+            <p className='projDesc'>
+              Main purpose of this project was to better understand the UX
+              process and accurately communicate between different departments
+              within a company. From my perspective, sharing spotify profiles
+              does not accurately represent the current listening behavior a 
+              user has. It mainly shows outdated playlists and no options to
+              reorganize. I utilized Figma for lo-fi and hi-fi UX development,
+              and recieve mentorship from and UX designer.
             </p>
           </div>
         </section>
 
-        <div className='descBox'>
-          <h2 className='projName'>I HAVE ALSO...</h2>
-          <p className='projDesc'>dabbled in game development (using Unity and Gimp) 
-          and basics to making music(using Ableton)  </p>
-        </div>
-
+        <section className='projSec'>
+          <div className='descBox'>
+            <h2 className='projName'>Gami Bird</h2>
+            <p class="projDesc"> 
+              Using Unity and C#, I was able to develop a 2D mobile 
+              game, a simple execution of the famous mobile game of 2013, 
+              Flappy Bird. I also used Gimp and FlatIcon to create my 
+              scenery and sprites. The main purpose of this project was 
+              to practice publishing/shipping of mobile games. Previously 
+              available on Google Play.
+            </p>
+          </div>
+          <img src={GamiBird} alt='GamiBird' className='projSSR'/>
+        </section>
 
         <br/>
         <div className='conLine'></div>
@@ -161,7 +127,6 @@ function App() {
               <a href={resume} className='btn' target='blank'>Jon's Resume</a>
             </div>
             
-            {/* <a href={resume} className='btn' target='blank'>Jon's Resume</a> */}
           </div>
           
 
