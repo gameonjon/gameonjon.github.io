@@ -17,23 +17,9 @@
   text-align: justify;
   /* margin: 3rem 8rem 3rem 8rem; */
   margin-inline: 8rem;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
 
 .bg-brown{
   background-color: #C3B59C;
@@ -83,6 +69,7 @@
 
 .descBox{
    width: 40%;
+   font-size: large;
    text-align: center;
    margin-inline: auto;
 }
@@ -145,12 +132,15 @@ footer{
 .headListLoc{
   display: flex;
 }
+.link{
+  color: #545A4D;
+}
 .headLink{
   /* text-decoration: ; */
   color: #c3b59c;
   display: inline-flex;
 }
-.headLink:hover{
+.headLink:hover, .link:hover{
   color: #2c2c32;
   transition: color 0.2s ease-in;
 }
@@ -190,7 +180,7 @@ footer{
 
 .proPic{
   /* width: 60%; */
-  width: 15em;
+  width: 17em;
   border-radius: 50%;
   /* width: 6em; */
 }
@@ -261,6 +251,9 @@ footer{
 }
 .resumeSec{
   display: flex;
+}
+.resumeSec h1{
+  font-size: xx-large;
 }
 
 .secTitle{
