@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/PortfolioUD/static/css/main.d69421ed.css",
-    "main.js": "/PortfolioUD/static/js/main.6eb2876e.js",
+    "main.css": "/PortfolioUD/static/css/main.f209fa96.css",
+    "main.js": "/PortfolioUD/static/js/main.0459ca10.js",
     "static/js/453.1407b060.chunk.js": "/PortfolioUD/static/js/453.1407b060.chunk.js",
     "static/media/profilePic.png": "/PortfolioUD/static/media/profilePic.3646418f0bc0a235712d.png",
     "static/media/winery.jpg": "/PortfolioUD/static/media/winery.7ad3169f695f8fddb490.jpg",
     "static/media/fencing.jpg": "/PortfolioUD/static/media/fencing.5654bb6f9eded735f808.jpg",
-    "static/media/webPor.png": "/PortfolioUD/static/media/webPor.67b9a6aaba7a688ca358.png",
+    "static/media/DBHome.PNG": "/PortfolioUD/static/media/DBHome.9cff5893a9a63d9c4857.PNG",
+    "static/media/cap2.png": "/PortfolioUD/static/media/cap2.3beb24ffb3f2bbf200fa.png",
+    "static/media/DBGame.PNG": "/PortfolioUD/static/media/DBGame.c971a96d5cb0e313212d.PNG",
+    "static/media/cap1.png": "/PortfolioUD/static/media/cap1.cfa16694e89e4f1b9d0c.png",
+    "static/media/DBAdd.PNG": "/PortfolioUD/static/media/DBAdd.ae44599f5a1d9150001c.PNG",
     "static/media/Feature1.png": "/PortfolioUD/static/media/Feature1.b76a15adfb15a4b8e7bf.png",
     "static/media/spotify.png": "/PortfolioUD/static/media/spotify.52fcd845d78762de6d5f.png",
-    "static/media/JonA.PNG": "/PortfolioUD/static/media/JonA.17a30b0c9ed3e3d88c46.PNG",
+    "static/media/JonA.png": "/PortfolioUD/static/media/JonA.17a30b0c9ed3e3d88c46.png",
     "static/media/JonAlfaro.pdf": "/PortfolioUD/static/media/JonAlfaro.9d0057b6d0ad5e3013a4.pdf",
-    "static/media/VGDB.png": "/PortfolioUD/static/media/VGDB.25a07be32d5e9f6a2453.png",
     "index.html": "/PortfolioUD/index.html",
-    "main.d69421ed.css.map": "/PortfolioUD/static/css/main.d69421ed.css.map",
-    "main.6eb2876e.js.map": "/PortfolioUD/static/js/main.6eb2876e.js.map",
+    "main.f209fa96.css.map": "/PortfolioUD/static/css/main.f209fa96.css.map",
+    "main.0459ca10.js.map": "/PortfolioUD/static/js/main.0459ca10.js.map",
     "453.1407b060.chunk.js.map": "/PortfolioUD/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d69421ed.css",
-    "static/js/main.6eb2876e.js"
+    "static/css/main.f209fa96.css",
+    "static/js/main.0459ca10.js"
   ]
 }
