@@ -1,7 +1,7 @@
 import './App.css';
 import fence from './media/fencing.jpg';
 import wine from './media/winery.jpg';
-import resumePic from './media/JonA.PNG';
+import resumePic from './media/JonA.png';
 import resume from './media/JonAlfaro.pdf';
 import Header from './Header.js';
 import React, { useEffect } from 'react';
@@ -59,7 +59,6 @@ function App() {
         <br/>
         <div className='conLine'></div>
         <br/>
-
 
         {/* Resume SECTION */}
         {/* ------------- */}

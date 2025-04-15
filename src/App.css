@@ -180,7 +180,7 @@ footer{
 
 .proPic{
   /* width: 60%; */
-  width: 17em;
+  width: 16em;
   border-radius: 50%;
   /* width: 6em; */
 }
@@ -213,9 +213,6 @@ footer{
   /* width: 30em; */
   height: 17em;
   margin-inline-end: auto;
-}
-.projSSDiv{
-  /* width: 100%; */
 }
 .resume{
   width: 30em;

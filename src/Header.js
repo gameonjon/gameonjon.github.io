@@ -13,7 +13,7 @@ function Header({}){
     return (
         <header className='head'>
             <div className='proPicDiv'>
-                <img src={proPic} alt='profile' className='proPic'/>
+                <img src={proPic} alt='profile picture' className='proPic'/>
                 <h1 id='headName'>Jonathan <br className="mobileBr"/>Alfaro</h1>  
             </div>
            
